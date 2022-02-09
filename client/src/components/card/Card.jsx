@@ -13,7 +13,7 @@ const Card = ({ post, socket, user }) => {
 		console.log('Card.tsx user: ', user);
 		console.log('Card.tsx post.userName: ', post.userName);
 		console.log('Card.tsx type: ', type);
-		setLiked(true);
+		type === 1 && setLiked(true);
 		socket.emit('sendNotification', {
 			senderName: user,
 			receiverName: post.userName,

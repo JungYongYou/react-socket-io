@@ -55,3 +55,9 @@
 	flex-direction: column;
 	padding: 10px;
 }
+
+.nButton {
+	width: 80%;
+	padding: 5px;
+	margin-top: 10px;
+}
